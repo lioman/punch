@@ -23,4 +23,4 @@ install:
   - pip install .
 
 # command to run tests
-script: py.test -sv --runslow
+script: py.test -sv --runslow --cov-report term:skip-covered --cov=punch
